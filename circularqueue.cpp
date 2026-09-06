@@ -66,8 +66,8 @@ int main(){
     cq.push(4); // 4,2,3 iss order m elements print hokr ayenge means array ke elements ko hmne print krwaya h but if we talk about CQ then elements arranged in 2,3,4
     // cq.print();
 
-    while(!cq.empty){
-        cout<<cq.front<<" "<<endl; // 2,3,4
+    while(!cq.empty()){
+        cout<<cq.front()<<" "<<endl; // 2,3,4
         cq.pop();
     }
 
