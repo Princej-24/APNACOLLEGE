@@ -7,7 +7,7 @@ int main() {
     vector<int> price = {100, 80, 60, 70, 60, 75, 85};
 
     // solution
-    vector<int> ans(price.size(), 0);
+    vector<int> ans(price.size(), 0); // vector of size n and all the values of that vec is 0 
     stack<int> s;
 
     for (int i = 0; i < price.size(); i++) {
