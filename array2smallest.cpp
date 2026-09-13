@@ -10,7 +10,7 @@ int main() {
         if(nums[i]<smallest){
             smallest = nums[i];
         }
-        //smallest = (min(nums[i],smallest)); 
+    smallest = (min(nums[i],smallest)); 
     }
     
     cout<<smallest;
